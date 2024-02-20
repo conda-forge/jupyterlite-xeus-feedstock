@@ -1,5 +1,5 @@
 {% set name = "jupyterlite-xeus" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlite_xeus-{{ version }}.tar.gz
-  sha256: 751c82eefbe8585137174eb46170aad9945abb738a925e62088c429a322c0372
+  sha256: 995bbf03d22a59f7deec7d7531692b2acca20cd05c164d750ec282b439b6a32d
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - python >=3.8
     - empack >=3.1,<4
     - traitlets
-    - jupyterlite-core >=0.2,<0.3
+    - jupyterlite-core >=0.1,<0.4
     - pyyaml
     - requests
 
