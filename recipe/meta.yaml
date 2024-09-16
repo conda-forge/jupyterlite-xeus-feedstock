@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,9 +25,9 @@ requirements:
     - hatch-nodejs-version
   run:
     - python >=3.8
-    - empack >=3.1,<5
+    - empack >=4.0.2,<5
     - traitlets
-    - jupyterlite-core >=0.1,<0.4
+    - jupyterlite-core >=0.1,<0.5
     - pyyaml
     - requests
 
