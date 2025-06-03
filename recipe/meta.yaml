@@ -31,6 +31,7 @@ requirements:
     - pyyaml
     - requests
     # This is a hard-dependency now (cannot be for PyPi)
+    # https://github.com/jupyterlite/xeus/issues/248 for the hard pin
     - micromamba =2.0.5
 
 test:
