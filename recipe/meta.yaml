@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlite_xeus-{{ version }}.tar.gz
-  sha256: af99e1a5d0274add6411e94c00e426c61ba64fb8f07f339d2292b556f207870a
+  sha256: 624d21aec88d98b84200edca6359524651604041d7a2bc21d872d0a49f025c77
 
 build:
   noarch: python
