@@ -19,13 +19,13 @@ requirements:
     - python {{ python_min }}
     - pip
     - jupyterlab >=3,<5
-    - empack >=5.1.1,<6
+    - empack >=5.1.1,<7
     - hatchling
     - hatch-jupyter-builder
     - hatch-nodejs-version
   run:
     - python >={{ python_min }}
-    - empack >=5.1.1,<6
+    - empack >=5.1.1,<7
     - traitlets
     - jupyterlite-core >=0.6,<0.7
     - pyyaml
