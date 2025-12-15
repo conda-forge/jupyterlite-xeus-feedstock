@@ -1,5 +1,5 @@
 {% set name = "jupyterlite-xeus" %}
-{% set version = "4.3.5" %}
+{% set version = "4.3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlite_xeus-{{ version }}.tar.gz
-  sha256: 89fcfca56c88cf3f06194ed4e55bf3e384026a5fd7395a81f789d616e30d24eb
+  sha256: db050703ab5fa711979c3dfa40b71fd8ff12c5ac41e577a7e74dba32e1dde6fc
 
 build:
   noarch: python
