@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -27,7 +27,7 @@ requirements:
     - python >={{ python_min }}
     - empack >=5.1.1,<7
     - traitlets
-    - jupyterlite-core >=0.7,<0.8
+    - jupyterlite-core >=0.7,<0.9
     - pyyaml
     - requests
     # This is a hard-dependency now (cannot be for PyPi)
