@@ -42,8 +42,8 @@ test:
     - python {{ python_min }}
   commands:
     - pip check
-    - test -f ${PREFIX}/share/jupyter/labextensions/@jupyterlite/xeus/package.json                            # [unix]
-    - if not exist %PREFIX%\\share\\jupyter\\labextensions\\@jupyterlite/xeus\\package.json (exit 1)          # [win]
+    - test -f ${PREFIX}/share/jupyter/labextensions/@jupyterlite/xeus-extension/package.json                            # [unix]
+    - if not exist %PREFIX%\\share\\jupyter\\labextensions\\@jupyterlite/xeus-extension\\package.json (exit 1)          # [win]
 
 about:
   home: https://github.com/jupyterlite/xeus
