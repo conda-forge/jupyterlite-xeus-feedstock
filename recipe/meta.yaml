@@ -19,10 +19,9 @@ requirements:
     - python {{ python_min }}
     - pip
     - jupyterlab >=3,<5
-    - empack >=5.1.1,<7
-    - hatchling
-    - hatch-jupyter-builder
-    - hatch-nodejs-version
+    - hatchling >=1.5.0
+    - hatch-nodejs-version >=0.3.2
+    - jupyter-builder >=1.0.0,<2
   run:
     - python >={{ python_min }}
     - empack >=5.1.1,<7
@@ -30,7 +29,6 @@ requirements:
     - jupyterlite-core >=0.7,<0.9
     - pyyaml
     - requests
-    # This is a hard-dependency now (cannot be for PyPi)
     # This is a hard-dependency now (cannot be for PyPi)
     - micromamba
 
